@@ -15,7 +15,8 @@
 - リモートリポジトリのメインをpullする場合は、ローカル側でメインにいる状態で行う
 - git pull=git fetch + git marge
 - git checkout：ブランチを切り替え
-- git branch -d：ブランチ削除
+- git branch -d：ローカルブランチ削除
+- git push origin --delete：リモートブランチ削除
 - git commit -m：コメントつけてコミット
 - git status：ディレクトリの現在の状態を確認
 - git diff：addする前に差分を確認する
